@@ -70,7 +70,7 @@ make_dist() {
   cp build/qwfwd dist/qwfwd/qwfwd.bin
 
   cd dist
-  zip -r sv-bin-armhf.zip mvdsv ktv qtv qwfwd
+  zip -r ../sv-bin-armhf.zip mvdsv ktv qtv qwfwd
   cd -
 }
 
